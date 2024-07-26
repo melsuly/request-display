@@ -26,7 +26,7 @@
 
             <h4 class="mt-4">
                 <?php if(!empty($_REQUEST)){ ?>
-                    Ты отправил <span class="text-info"><?php echo($_SERVER['REQUEST_METHOD']); ?></span> запрос со слудующими данными:
+                    Ты отправил <span class="text-info"><?php echo($_SERVER['REQUEST_METHOD']); ?></span> запрос со слeдующими данными:
                 <?php } else { ?>
                     Но ты отправил пустой <span class="text-info"><?php echo($_SERVER['REQUEST_METHOD']); ?></span> запрос
                 <?php } ?>
